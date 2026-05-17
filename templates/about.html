@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - ROLEX</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-sm" style="background-color: rgb(231, 225, 225);">
+    <div class="container-fluid">
+
+        <div class="d-flex align-items-center">
+            <img src="{{ url_for('static', filename='images/1.jpg') }}"
+                 style="border-radius:50%;height:60px;width:60px;object-fit:cover;">
+            <h2 class="ms-3 m-0 fw-bold">ROLEX</h2>
+        </div>
+
+        <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item"><a class="nav-link" href="/">HOME</a></li>
+            <li class="nav-item"><a class="nav-link active" href="/about">ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link" href="/services">SERVICES</a></li>
+            <li class="nav-item"><a class="nav-link" href="/gallery">GALLERY</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact">CONTACT</a></li>
+            <li class="nav-item"><a class="nav-link" href="/login">LOGIN</a></li>
+            <li class="nav-item"><a class="nav-link" href="/register">REGISTRATION</a></li>
+
+        </ul>
+
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>About ROLEX</h1>
+</section>
+
+<!-- SECTION 1 -->
+<section class="py-5 text-center bg-light">
+    <div class="container">
+        <h2 class="fw-bold mb-4">A Legacy of Time</h2>
+
+        <p class="text-muted section-text">
+            At ROLEX, time is more than a measurement — it is a statement of excellence.
+            Our legacy is built on precision, innovation, and craftsmanship.
+        </p>
+
+        <p class="text-muted section-text">
+            Every watch reflects perfection, designed for those who value luxury.
+        </p>
+    </div>
+</section>
+
+<!-- SECTION 2 -->
+<section class="container-fluid p-0">
+    <div class="row g-0 align-items-center">
+
+        <div class="col-md-6">
+            <img src="{{ url_for('static', filename='images/1.1.webp') }}"
+                 class="about-img w-100">
+        </div>
+
+        <div class="col-md-6 p-5">
+            <h2 class="fw-bold mb-3">Crafted to Perfection</h2>
+
+            <p class="text-muted">
+                Each ROLEX timepiece is engineered with precision and excellence.
+            </p>
+
+            <p class="text-muted">
+                Our watches are symbols of achievement.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<!-- SECTION 3 -->
+<section class="text-center text-light py-5" style="background:#111;">
+    <div class="container">
+
+        <h2 class="fw-bold mb-3">Precision Meets Innovation</h2>
+
+        <p style="max-width:700px;margin:auto;color:#bbb;">
+            We combine tradition with modern innovation for perfect accuracy.
+        </p>
+
+    </div>
+</section>
+
+<!-- SECTION 4 -->
+<section class="py-5 text-center">
+    <div class="container">
+
+        <h2 class="fw-bold mb-4">Our Vision</h2>
+
+        <p class="text-muted section-text">
+            We create watches that tell your story with timeless design.
+        </p>
+
+        <a href="/services" class="btn btn-dark mt-3 px-4">Explore Collection</a>
+
+    </div>
+</section>
+
+<!-- STATS -->
+<section class="bg-dark text-light py-5 text-center">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <h2>50+</h2>
+                <p>Years Experience</p>
+            </div>
+
+            <div class="col-md-4">
+                <h2>100K+</h2>
+                <p>Happy Customers</p>
+            </div>
+
+            <div class="col-md-4">
+                <h2>500+</h2>
+                <p>Luxury Models</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-light pt-5 pb-3" style="background-color: rgb(61, 61, 61);">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-3">
+                <h4 class="fw-bold">ROLEX</h4>
+                <p>Timeless luxury watches crafted with precision.</p>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="/" class="text-light">Home</a></li>
+                    <li><a href="/about" class="text-light">About</a></li>
+                    <li><a href="/services" class="text-light">Collection</a></li>
+                    <li><a href="/contact" class="text-light">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-light">Watch Repair</a></li>
+                    <li><a href="#" class="text-light">Customization</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Follow Us</h5>
+                <i class="bi bi-facebook me-2"></i>
+                <i class="bi bi-instagram me-2"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="text-center">
+            <p class="text-muted">© 2026 ROLEX. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

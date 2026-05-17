@@ -1,0 +1,25 @@
+/* LOGO */
+.logo {
+    border-radius: 50%;
+}
+
+/* HEADING */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* CAROUSEL FULL HEIGHT */
+#hoverCarousel,
+.carousel-inner,
+.carousel-item {
+    height: 100vh;
+}
+
+/* IMAGE SETTINGS */
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+}
